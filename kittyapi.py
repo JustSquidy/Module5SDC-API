@@ -1,6 +1,5 @@
 import requests
 
-
 try:
     response = requests.get("https://catfact.ninja/fact")
     print(response.status_code)
